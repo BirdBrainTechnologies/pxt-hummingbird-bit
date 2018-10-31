@@ -93,7 +93,7 @@ namespace hummingbird {
      * @param port the LED port to control [1-3]
      * @param brightness the % brightness of the LED [0-100]
      */
-    //% weight=31 blockId="setLED" block="Hummingbird LED %port_num| %intensity |%"
+    //% weight=31 blockId="setLED" block="Hummingbird LED %port_num %intensity |\\%"
     //% port_num.min=1 port_num.max=3
     //% intensity.min=0 intensity.max=100
     export function setLED(port: ThreePort, intensity: number = 50): void {
@@ -144,7 +144,7 @@ namespace hummingbird {
      * @param green the % brightness of the green LED element [0-100]
      * @param blue the % brightness of the blue LED element [0-100]
      */
-    //% weight=29 blockId="setTriLED" block="Hummingbird Tri-LED %port_num| Red %Red| Green %Green| Blue %Blue"
+    //% weight=29 blockId="setTriLED" block="Hummingbird Tri-LED %port_num| Red %Red| Green %Green| Blue %Blue|"
     //% port_num.min=1 port_num.max=2
     //% Red.min=0 Red.max=100
     //% Green.min=0 Green.max=100
@@ -242,7 +242,7 @@ namespace hummingbird {
      * @param port the servo port to control [1-4]
      * @param speed the speed as a percent for the servo [-100 to 100]
      */
-    //% weight=28 blockId="setRotationServo" block="Hummingbird Rotation Servo %port_num| %speed|%"
+    //% weight=28 blockId="setRotationServo" block="Hummingbird Rotation Servo %port_num| %speed|\\%"
     //%port_num.min=1 port_num.max=4
     //% speed.min=-100 speed.max=100
     export function setRotationServo(port: FourPort, speed: number = 0): void {
