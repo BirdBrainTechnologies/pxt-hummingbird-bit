@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "將端口1,2,3或4上的位置伺服的角度設置為0°至180°。",
   "hummingbird.setRotationServo": "將端口1,2,3或4上的旋轉伺服的旋轉速度設置為-100％至100％。",
   "hummingbird.getSensor": "在端口1,2或3上讀取感應器的值。距離傳感器的讀數以cm為單位。 所有其他讀數範圍從0到100（無單位）。",
-  "SensorType.getBattery": "以毫伏為單位讀取電池的值。 當值低於4630 mV時，可能出現奇怪的現象。"
+  "hummingbird.getBattery": "以毫伏為單位讀取電池的值。 當值低於4630 mV時，可能出現奇怪的現象。"
 }

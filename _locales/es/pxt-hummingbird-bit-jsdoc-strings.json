@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "",
   "hummingbird.setRotationServo": "100 % hasta 100%",
   "hummingbird.getSensor": "Las distancias del sensor estan en cm. El resto de las lecturas van en un rango de 0 hasta un comportamiento impredecible cuando el valor esta por debajo de 4630 mV.",
-  "SensorType.getBattery": ""
+  "hummingbird.getBattery": ""
 }

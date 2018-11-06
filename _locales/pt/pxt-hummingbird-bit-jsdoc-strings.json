@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "Define uma posição do servo na porta 1, 2, 3 ou 4 em um ângulo de 0 ° a 180 °.",
   "hummingbird.setRotationServo": "Define uma rotação do servo na porta 1, 2, 3 ou 4 para uma velocidade de rotação de -100% a 100%.",
   "hummingbird.getSensor": "Lê o valor do sensor na porta 1, 2 ou 3. As leituras do sensor de distância são dadas em cm. Todas as outras leituras variam de 0 a 100 (sem unidades).",
-  "SensorType.getBattery": "Lê o valor da bateria em milivolts. Você pode começar a ver um comportamento estranho quando o valor estiver abaixo de 4630 mV."
+  "hummingbird.getBattery": "Lê o valor da bateria em milivolts. Você pode começar a ver um comportamento estranho quando o valor estiver abaixo de 4630 mV."
 }

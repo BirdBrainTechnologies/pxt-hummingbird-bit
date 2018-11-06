@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "Indstiller en positionsservo på indgang 1, 2, 3 eller 4 og en vinkel fra 0° til 180°.",
   "hummingbird.setRotationServo": "Indstiller en rotationsservo på indgang 1, 2, 3 eller 4 til en rotationshastighed fra -100% til 100%.",
   "hummingbird.getSensor": "Læser værdien af sensoren på indgang 1, 2 eller 3. Afstandssensoren er angivet i centimeter. Alt andet er angivet fra 0 til 100 (uden enheder).",
-  "SensorType.getBattery": "Læser værdien af batteriet i milliVolt. Du vil muligvis se en underlig opførsel, hvis værdien kommer under 4630 mV."
+  "hummingbird.getBattery": "Læser værdien af batteriet i milliVolt. Du vil muligvis se en underlig opførsel, hvis værdien kommer under 4630 mV."
 }

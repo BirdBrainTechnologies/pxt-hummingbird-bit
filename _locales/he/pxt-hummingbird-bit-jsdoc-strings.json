@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "מגדיר סרוו כיוון ביציאה 1,2,3 או 4 לזווית בין 0 ל 180 מעלות",
   "hummingbird.setRotationServo": "מגדיר סרוו סיבובים ביציאה 1,2,3 או4 במהירות בין-100% ל100%",
   "hummingbird.getSensor": "קורא טווח  בין 0 ל 100 (לא יחידות)",
-  "SensorType.getBattery": ""
+  "hummingbird.getBattery": ""
 }

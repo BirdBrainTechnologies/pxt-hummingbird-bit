@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "Fixa la posició d'un servomotor posicional connectat als ports 1, 2, 3 o 4 a un angle entre 0º i 180º.",
   "hummingbird.setRotationServo": "Ajusta la velocitat d'un servomotor rotacional connectat als ports 1, 2, 3 o 4 entre -100% i 100%.",
   "hummingbird.getSensor": "Llegeix el valor d'un sensor connectat als ports 1, 2 o 3. Les lectures del sensor de distància són en cm. Totes les altres lectures van de 0 a 100 (sense unitats).",
-  "SensorType.getBattery": "Llegeix la càrrega de la bateria en milivolts. Quan el valor baixa de 4630 mV poden observar-se comportaments extranys."
+  "hummingbird.getBattery": "Llegeix la càrrega de la bateria en milivolts. Quan el valor baixa de 4630 mV poden observar-se comportaments extranys."
 }

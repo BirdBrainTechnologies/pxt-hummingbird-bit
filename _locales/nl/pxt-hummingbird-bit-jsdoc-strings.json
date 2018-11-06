@@ -5,5 +5,5 @@
   "hummingbird.setPositionServo": "Stelt een positie-servo op poort 1, 2, 3 of 4 in op een hoek van 0 ° tot 180 °.",
   "hummingbird.setRotationServo": "Stelt een draai-servo op poort 1, 2, 3 of 4 in op een snelheid van -100% tot 100%.",
   "hummingbird.getSensor": "Leest de waarde van de sensor op poort 1, 2 of 3. Lezingen voor de afstandssensor worden gegeven in cm. Alle andere meetwaarden variëren van 0 tot 100.",
-  "SensorType.getBattery": "Leest de waarde van de batterij in milliVolts. Mogelijk begint u vreemd gedrag te zien als de waarde lager is dan 4630 mV."
+  "hummingbird.getBattery": "Leest de waarde van de batterij in milliVolts. Mogelijk begint u vreemd gedrag te zien als de waarde lager is dan 4630 mV."
 }
