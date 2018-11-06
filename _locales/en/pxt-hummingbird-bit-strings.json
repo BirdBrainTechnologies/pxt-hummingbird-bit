@@ -6,9 +6,9 @@
     "hummingbird.setRotationServo|block": "Hummingbird Rotation Servo %port_num| %speed| \\%",
     "hummingbird.getSensor|block": "Hummingbird %sensorType| %port_num|",
     "SensorType.Light|block": "Light",
-    "SensorType.Distance|block": "Distance (cm)",
+    "SensorType.Distance|block": "Distance",
     "SensorType.Dial|block": "Dial",
     "SensorType.Sound|block": "Sound",
-    "SensorType.Other|block": "Other (mV)",
+    "SensorType.Other|block": "Other",
     "hummingbird.getBattery|block": "Hummingbird Battery"
 }
