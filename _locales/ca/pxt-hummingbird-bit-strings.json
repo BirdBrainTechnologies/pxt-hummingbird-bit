@@ -1,6 +1,6 @@
 {
   "hummingbird.startHummingbird|block": "Inicia Hummingbird",
-  "hummingbird.setTriLED|block": "Hummingbird Tri-LED %port_num| vermell %Red| % verd %Green| % blau %Blue| %",
+  "hummingbird.setTriLED|block": "Hummingbird Tri-LED %port_num| vermell %Red| verd %Green| blau %Blue|",
   "hummingbird.setLED|block": "Hummingbird LED %port_num| %intensity| \\%",
   "hummingbird.setPositionServo|block": "Hummingbird Servo posicional %port_num| %angle| °",
   "hummingbird.setRotationServo|block": "Hummingbird Servo rotacional %port_num| %speed| \\%",
