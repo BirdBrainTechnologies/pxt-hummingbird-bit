@@ -43,7 +43,7 @@ enum SensorType {
 /**
  * Blocks for Controlling a Hummingbird Bit
  */
-//% color=#089bab weight=32 icon="\uF0EB"
+//% color=#62bcc7 weight=32 icon="\uF0EB"
 namespace hummingbird {
     let cmdBuff: Buffer
     let readBuff: Buffer
