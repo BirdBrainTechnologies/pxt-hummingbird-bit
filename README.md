@@ -1,21 +1,32 @@
 # pxt-hummingbird-bit
+This library controls the Hummingbird Bit, a robotics kit that extends the micro:bit to enable you to create robots that involve multiple motors, lights, and sensors.
 
-## Block Reference
-These blocks control the Hummingbird Bit, a microcontroller board that extends the micro:bit to enable you to create 
+# Reference
+## Start Hummingbird
+This block is required for every Hummingbird program
 
-Start Hummingbird: This block is required for every Hummingbird program
-Hummingbird LED: Sets a single color LED on port 1, 2, or 3 to a brightness value from 0% to 100%.
-Hummingbird Tr-LED: Sets a tri-color LED on port 1 or 2 to the color specified by red, green, and blue brightness values. The values range from 0% to 100%.
-Hummingbird Position Servo: Sets a position servo on port 1, 2, 3, or 4 to an angle from 0° to 180°.
-Hummingbird Rotation Servo: Sets a rotation servo on port 1, 2, 3, or 4 to a rotation speed from -100% to 100%.
-Hummingbird Light: Reads the value of the sensor on port 1, 2, or 3. Readings for the distance sensor are given in cm. All other readings range from 0 to 100 (no units).
-Hummingbird Battery: Reads the value of the battery in milliVolts. You may start to see strange behavior when the value is below 4630 mV.
+## Hummingbird LED
+Sets a single color LED on port 1, 2, or 3 to a brightness value from 0% to 100%.
+
+## Hummingbird Tr-LED
+Sets a tri-color LED on port 1 or 2 to the color specified by red, green, and blue brightness values. The values range from 0% to 100%.
+
+## Hummingbird Position Servo
+Sets a position servo on port 1, 2, 3, or 4 to an angle from 0° to 180°.
+
+## Hummingbird Rotation Servo
+Sets a rotation servo on port 1, 2, 3, or 4 to a rotation speed from -100% to 100%.
+
+### Hummingbird Light
+Reads the value of the sensor on port 1, 2, or 3. Readings for the distance sensor are given in cm. All other readings range from 0 to 100 (no units).
+
+### Hummingbird Battery
+Reads the value of the battery in milliVolts. You may start to see strange behavior when the value is below 4630 mV.
 
 ## TODO
 
 - [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
+- [X] Add "icon.png" image (300x200) in the root folder
 - [ ] Turn on your automated build on https://travis-ci.org
 - [ ] Use "pxt bump" to create a tagged release on GitHub
 - [ ] Get your package reviewed and approved https://makecode.microbit.org/packages/approval
