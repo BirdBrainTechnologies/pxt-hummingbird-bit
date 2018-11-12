@@ -1,4 +1,4 @@
-# pxt-hummingbird-bit
+# pxt-hummingbird-bit [![Build Status](https://travis-ci.org/<BirdBrainTechnologies>/<pxt-hummingbird-bit>.svg?branch=master)](https://travis-ci.org/<BirdBrainTechnologies>/<pxt-hummingbird-bit>)
 This library controls the Hummingbird Bit, a robotics kit that extends the micro:bit to enable you to create robots that involve multiple motors, lights, and sensors.
 ```
 hummingbird.startHummingbird()
