@@ -1,25 +1,62 @@
 # pxt-hummingbird-bit
 This library controls the Hummingbird Bit, a robotics kit that extends the micro:bit to enable you to create robots that involve multiple motors, lights, and sensors.
-
+```
+hummingbird.startHummingbird()
+basic.forever(function () {
+    hummingbird.setLED(ThreePort.One, 100)
+    basic.pause(100)
+    hummingbird.setLED(ThreePort.One, 0)
+    basic.pause(100)
+})
+```
 # Reference
 ## Start Hummingbird
 This block is required for every Hummingbird program
+``` 
+hummingbird.startHummingbird()
+```
 
 ## Hummingbird LED
 Sets a single color LED on port 1, 2, or 3 to a brightness value from 0% to 100%.
+``` 
+hummingbird.setLED(ThreePort.One,100)
+```
 
-## Hummingbird Tr-LED
+## Hummingbird Tri-LED
 Sets a tri-color LED on port 1 or 2 to the color specified by red, green, and blue brightness values. The values range from 0% to 100%.
+``` 
+hummingbird.setTriLED(
+    TwoPort.One,
+    100,
+    0,
+    100
+    )
+```
 
 ## Hummingbird Position Servo
 Sets a position servo on port 1, 2, 3, or 4 to an angle from 0° to 180°.
+``` 
+hummingbird.setPositionServo(FourPort.One, 90)
+```
 
 ## Hummingbird Rotation Servo
 Sets a rotation servo on port 1, 2, 3, or 4 to a rotation speed from -100% to 100%.
+``` 
+hummingbird.setRotationServo(FourPort.One, 100)
+```
 
 ### Hummingbird Light
 Reads the value of the sensor on port 1, 2, or 3. Readings for the distance sensor are given in cm. All other readings range from 0 to 100 (no units).
-
+``` 
+hummingbird.startHummingbird()
+basic.forever(function () {
+    if (hummingbird.getSensor(SensorType.Light, ThreePort.One) < 20) {
+        hummingbird.setLED(ThreePort.One, 100)
+    } else {
+        hummingbird.setLED(ThreePort.One, 0)
+    }
+})
+``` 
 ### Hummingbird Battery
 Reads the value of the battery in milliVolts. You may start to see strange behavior when the value is below 4630 mV.
 
