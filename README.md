@@ -60,16 +60,6 @@ basic.forever(function () {
 ### Hummingbird Battery
 Reads the value of the battery in milliVolts. You may start to see strange behavior when the value is below 4630 mV.
 
-## TODO
-
-- [ ] Add a reference for your blocks here
-- [X] Add "icon.png" image (300x200) in the root folder
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] Get your package reviewed and approved https://makecode.microbit.org/packages/approval
-
-Read more at https://makecode.microbit.org/packages/build-your-own
-
 ## License
 MIT License
 
