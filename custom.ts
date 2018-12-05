@@ -338,7 +338,7 @@ namespace hummingbird {
             }
             else
                 return_val = (vals[port - 1] * 100) / 255
-            return return_val
+            return Math.round(return_val)
         }
         else {
             return 0
@@ -378,7 +378,7 @@ namespace hummingbird {
             readyToSend = true
 
             return_val = 406 * (vals[3]) / 10
-            return return_val
+            return Math.round(return_val)
         }
         else {
             return 0
