@@ -261,10 +261,10 @@ namespace hummingbird {
             // Send the off command if the speed is close to zero. Otherwise,
             // convert the speed to a range from 104 to 144 (found experimentally to
             // be the command range for the rotation servo)
-            if ((speed > -2) && (speed < 2))
+            if ((speed > -10) && (speed < 10))
                 speed_conv = 255
             else
-                speed_conv = (speed * 23 / 100) + 124
+                speed_conv = (speed * 23 / 100) + 122
 
             let port_val = port + 0xC5
 
