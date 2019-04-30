@@ -1,0 +1,9 @@
+{
+  "hummingbird.startHummingbird": "Tämä lohko tarvitaan jokaiseen Hummingbird-ohjelmaan.",
+  "hummingbird.setLED": "Asettaa (portin 1, 2 tai 3) yksivärisen LED-valon kirkkauden arvon välille 0%-100%.",
+  "hummingbird.setTriLED": "Asettaa kolmivärisen LED-valon (portissa 1 tai 2) annettuihin punaisen, vihreän ja sinisen arvoihin. Arvot ovat välillä 0%-100%.",
+  "hummingbird.setPositionServo": "Asettaa asentoservon (portissa 1, 2, 3 tai 4) kulmaan välillä  0° -180°.",
+  "hummingbird.setRotationServo": "Asettaa pyörivän servomoottorin (portissa 1, 2 , 3 tai 4) nopeuteen välillä 0%-100%.",
+  "hummingbird.getSensor": "Lukee porttiin 1, 2 tai 3 kytketyn anturin arvon. Etäisyysanturin lukemat ovat senttimetreissä. Kaikki muut lukemat ovat välillä 0-100 (ei yksiköitä).",
+  "hummingbird.getBattery": "Lukee akun tilan millivoltteina. Toiminta saattaa muuttua omituiseksi, jos arvo on alle 4630 mV."
+}

@@ -1,0 +1,14 @@
+{
+  "hummingbird.startHummingbird|block": "Starta Hummingbird",
+  "hummingbird.setTriLED|block": "Hummingbird Tri-LED %port_num| R %Red| G %Green| B %Blue|",
+  "hummingbird.setLED|block": "Hummingbird LED %port_num| %intensity| \\%",
+  "hummingbird.setPositionServo|block": "Hummingbird Positionsservo %port_num| %angle| °",
+  "hummingbird.setRotationServo|block": "Hummingbird Rotationsservo %port_num| %speed| \\%",
+  "hummingbird.getSensor|block": "Hummingbird %sensorType| %port_num|",
+  "SensorType.Light|block": "Ljus",
+  "SensorType.Distance|block": "Avstånd",
+  "SensorType.Dial|block": "Rotation",
+  "SensorType.Sound|block": "Ljud",
+  "SensorType.Other|block": "Annan",
+  "hummingbird.getBattery|block": "Hummingbird Batteri"
+}

@@ -1,0 +1,9 @@
+{
+  "hummingbird.startHummingbird": "Detta block krävs i varje Hummingbird program",
+  "hummingbird.setLED": "Ställer in en enfärgad LED på port 1, 2 eller 3 till en intensitet från 0%-100%.",
+  "hummingbird.setTriLED": "Ställer in en TRI- LED på port 1 eller 2 till färgen angiven av röd, grön och blå med intensitet från 0% -100%.",
+  "hummingbird.setPositionServo": "Ställer in positionsservon på port 1, 2, 3 eller 4 till en vinkel från 0° -180°.",
+  "hummingbird.setRotationServo": "Ställer in rotationsservon på port 1, 2, 3 eller 4 till en rotationshastighet från  -100% till 100%.",
+  "hummingbird.getSensor": "Läser av sensorvärden från port 1, 2, eller 3. Värdena från avståndssensorn är given i cm. Alla andra värden sträcker sig från 0-100 (inga enheter).",
+  "hummingbird.getBattery": "Läser av batteriets spänning i milliVolt. Spänning under 4630 mV kan orsaka onormalt beteende."
+}

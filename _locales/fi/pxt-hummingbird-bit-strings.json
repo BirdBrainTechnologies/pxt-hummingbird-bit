@@ -1,0 +1,14 @@
+{
+  "hummingbird.startHummingbird|block": "Käynnistä Hummingbird",
+  "hummingbird.setTriLED|block": "Hummingbird Tri-LED %port_num| R %Red| G %Green| B %Blue|",
+  "hummingbird.setLED|block": "Hummingbird LED %port_num| %intensity| \\%",
+  "hummingbird.setPositionServo|block": "Hummingbird Asentoservo %port_num| %angle| °",
+  "hummingbird.setRotationServo|block": "Hummingbird Kiertoservo %port_num| %speed| \\%",
+  "hummingbird.getSensor|block": "Hummingbird %sensorType| %port_num|",
+  "SensorType.Light|block": "Valo",
+  "SensorType.Distance|block": "Etäisyys",
+  "SensorType.Dial|block": "Säädin",
+  "SensorType.Sound|block": "Ääni",
+  "SensorType.Other|block": "Muu",
+  "hummingbird.getBattery|block": "Hummingbird Akku"
+}

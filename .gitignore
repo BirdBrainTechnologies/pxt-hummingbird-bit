@@ -6,3 +6,4 @@ pxt_modules
 *.db
 *.tgz
 package-lock.json
+.DS_Store
