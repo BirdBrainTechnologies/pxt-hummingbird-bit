@@ -344,6 +344,17 @@ namespace hummingbird {
             return 0
         }
     }
+        
+    /**
+     * Reads the value of a switch port 1, 2, or 3. True for closed, false for open.
+     * @param port the sensor port to read [1-3]
+     */
+    //% weight=20 blockId="switchSet" block="Hummingbird %sensorType | %port_num"
+    //%port_num.min=1 port_num.max=3
+    export function switchSet(port: ThreePort): boolean {
+        value = getSensor(SensorType.Dail, port);
+        return value >= 50;
+    }
 
     /**
      * Reads the value of the battery in milliVolts. You may start to see strange behavior when the value is below 4630 mV. 
